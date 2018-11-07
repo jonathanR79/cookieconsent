@@ -36,7 +36,7 @@ class BaldursPhotographyCookieConsent extends KokenPlugin {
 		expiryDays: '{$cookieexp}'
 	}
 </script>
-<script type="text/javascript" src="{$path}/cookieconsent.min.js"></script>
+<script type="text/javascript" src="{$path}/cookieconsent.min.js" async></script>
 OUT;
 	}
 }
